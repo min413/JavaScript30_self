@@ -11,7 +11,7 @@ EventTarget.addEventListener(type, listener[, options]);
 > 지정한 이벤트가 대상에 전달될 때마다 호출할 함수를 설정
 > type - 반응할 이벤트 유형(여기선 'keydown' : 키 누름, 'transitionend' : css 전환)  
 
-<br/>
+
 ```python
 document.querySelector(`audio[data-key="${e.keyCode}"]`);
 ```
