@@ -38,3 +38,24 @@ const keys = document.querySelectorAll('.key');
 > 파라미터(selector) 그룹에 일치하는 다큐먼트의 엘리먼트 리스트의 정적리스트(NodeList)를 얻음  
   
 ***
+## 02
+- JS는 굉장히 단순해서 빠르게 이해함
+- CSS로 시계바늘을 다루는 것을 배워감
+
+```python
+setInterval(setDate, 1000)
+```
+> setDate() 함수를 일정시간 간격으로(1000 == 1s) 반복 수행
+
+```python
+const now = new Date();
+const seconds = now.getSeconds();
+```
+> getSeconds()는 현재 시간의 '초' 부분을 반환함
+
+```python
+document.querySelector('.second-hand');
+```
+> 문서에서 '.second-hand'라는 클래스를 사용하는 첫 번째 요소를 반환
+
+***
